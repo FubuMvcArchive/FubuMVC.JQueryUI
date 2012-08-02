@@ -98,7 +98,7 @@
     <Content Include="content\styles\themes\redmond\jquery-ui-1.8.21.custom.css" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="jquery.ui.config" />
+    <None Include="jqueryui.asset.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
