@@ -32,28 +32,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bottles">
-      <HintPath>..\packages\Bottles.1.0.0.440\lib\Bottles.dll</HintPath>
+      <HintPath>..\packages\Bottles.0.9.9.399\lib\Bottles.dll</HintPath>
     </Reference>
     <Reference Include="FubuCore">
-      <HintPath>..\packages\FubuCore.1.0.0.225\lib\FubuCore.dll</HintPath>
+      <HintPath>..\packages\FubuCore.0.9.9.205\lib\FubuCore.dll</HintPath>
     </Reference>
     <Reference Include="FubuLocalization">
-      <HintPath>..\packages\FubuLocalization.0.9.5.124\lib\FubuLocalization.dll</HintPath>
+      <HintPath>..\packages\FubuLocalization.0.9.5.104\lib\FubuLocalization.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.Core">
-      <HintPath>..\packages\FubuMVC.Core.0.9.9.1366\lib\net40\FubuMVC.Core.dll</HintPath>
+      <HintPath>..\packages\FubuMVC.Core.0.9.8.1267\lib\net40\FubuMVC.Core.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.Core.Assets">
-      <HintPath>..\packages\FubuMVC.Core.Assets.0.9.9.94\lib\net40\FubuMVC.Core.Assets.dll</HintPath>
+      <HintPath>..\packages\FubuMVC.Core.Assets.0.9.9.37\lib\net40\FubuMVC.Core.Assets.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.Core.View">
-      <HintPath>..\packages\FubuMVC.Core.View.0.9.9.97\lib\net40\FubuMVC.Core.View.dll</HintPath>
+      <HintPath>..\packages\FubuMVC.Core.View.0.9.9.35\lib\net40\FubuMVC.Core.View.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.StructureMap">
       <HintPath>..\packages\FubuMVC.References.0.9.8.1142\lib\net40\FubuMVC.StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="HtmlTags">
-      <HintPath>..\packages\HtmlTags.1.2.0.144\lib\4.0\HtmlTags.dll</HintPath>
+      <HintPath>..\packages\HtmlTags.1.2.0.127\lib\4.0\HtmlTags.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap">
       <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
@@ -71,7 +71,8 @@
     <Folder Include="content\images\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\scripts\jquery-ui-1.8.21.custom.min.js" />
+    <Content Include="content\scripts\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="content\styles\jquery-ui.css" />
     <Content Include="content\styles\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="content\styles\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="content\styles\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -119,11 +120,5 @@
   -->
   <ItemGroup>
     <EmbeddedResource Include="pak-WebContent.zip" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="pak-Data.zip" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="pak-Config.zip" />
   </ItemGroup>
 </Project>
