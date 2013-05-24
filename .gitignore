@@ -26,3 +26,5 @@ results
 bottles.cmd
 fubu.cmd
 src/FubuMVC.JQueryUI/pak-WebContent.zip
+logs
+Gemfile.lock
