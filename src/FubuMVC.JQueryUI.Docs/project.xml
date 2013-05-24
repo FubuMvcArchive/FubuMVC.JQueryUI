@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TagLine>Quick integration of jquery.ui into a FubuMVC application</TagLine>
+  <Name>FubuMVC.JQueryUI</Name>
+  <GitHubPage>http://github.com/DarthFubuMVC/FubuMVC.JQueryUI</GitHubPage>
+  <UserGroupUrl>https://groups.google.com/forum/?fromgroups#!forum/fubumvc-devel</UserGroupUrl>
+  <BuildServerUrl>http://build.fubu-project.org/project.html?projectId=project25&amp;tab=projectOverview</BuildServerUrl>
+  <BottleName>FubuMVC.JQueryUI.Docs</BottleName>
+  <TeamCityBuildType>bt42</TeamCityBuildType>
+  <Nugets>
+    <PublishedNuget>
+      <Name>FubuMVC.JQueryUI</Name>
+      <Description>Quick integration of jquery.ui into a FubuMVC application</Description>
+    </PublishedNuget>
+  </Nugets>
+  <Url>fubumvc.jqueryui</Url>
+</ProjectRoot>
